@@ -3,23 +3,17 @@
 	import ShowCode from './../components/showCode.svelte';
 	import { result } from './../stores/store'
 	import {onMount } from 'svelte'
-	import {createEventDispatcher} from 'svelte'
 
-	const dispatch = createEventDispatcher();
-	
-	function forward(event) {
-		dispatch("formSubmittedFromParent", event.detail);
-	}
 
 </script>
 
 <main>
 	<div class="form">
 		<h1>Revistas de prensa internacional</h1>
-		<Form on:formSubmitted/>
+		<Form />
 	</div>
 	<div class="showCode">
-		<ShowCode on:formSubmittedFromParent={forward}/>
+		<ShowCode />
 	</div>
 
 </main>
