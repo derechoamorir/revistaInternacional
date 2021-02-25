@@ -7,9 +7,14 @@
 		position: relative;
 		max-width: 100vw;
 		background-color: white;
-		padding: 2em 1rem;
 		margin: 0 auto;
 		box-sizing: border-box;
+	}
+	@media (max-width: 768px) {
+		main {
+			padding: 0;
+			margin: 0;
+		}
 	}
 </style>
 

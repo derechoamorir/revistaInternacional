@@ -76,9 +76,6 @@
 
 <h1>Código</h1>
   <div class="codearea"><textarea id="code" placeholder="Rellena el formulario" wrap="soft"></textarea></div>
-{#if (!$result[0]) }
-Rellena el formulario
-{/if}
 
 <style>
   h1 {

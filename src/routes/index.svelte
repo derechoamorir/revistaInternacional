@@ -27,26 +27,33 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		/* text-align: center; */
-		padding: 1em;
 		margin: 0 auto;
 	}
 
 	h1 {
-		color: #ff3e00;
+		color: rgb(179,15,29);
 		text-transform: uppercase;
 		font-size: 2rem;
-		font-weight: 200;
+		font-weight: 400;
 		line-height: 1.1;
 		margin: 2rem auto;
 	}
+	
 	.showCode {
-		background: rgb(255, 251, 239);
+		background: rgb(232, 237, 238);
 		min-height: 90vh;
 	}
-	@media (min-width: 480px) {
+	@media (max-width: 768px) {
 		h1 {
 			max-width: none;
 		}
+		main {
+			grid-template-columns: 1fr;
+			padding: 0;
+		}
+		.form {
+		padding: 0 1rem 1rem 1rem;
+	}
 
 	}
 </style>
