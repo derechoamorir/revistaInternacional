@@ -93,8 +93,7 @@
   #code {
     text-align: left;
     padding: 1rem;
-    width: 90%;
-    min-height: 80vh;
+    min-height: 90vh;
     font-family: monospace;
     border: 1px dashed grey;
     color: #444;
