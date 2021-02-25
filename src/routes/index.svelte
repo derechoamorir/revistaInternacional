@@ -6,6 +6,7 @@
 
 
 </script>
+<svelte:head><title>Revista de prensa internacional - DMD</title></svelte:head>
 
 <main>
 	<div class="form">
