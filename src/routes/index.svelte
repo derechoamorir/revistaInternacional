@@ -41,7 +41,11 @@
 	
 	.showCode {
 		background: rgb(232, 237, 238);
-		min-height: 90vh;
+		min-height: 100vh;
+	}
+
+	.form {
+		padding: 0 0 0 2rem;
 	}
 	@media (max-width: 768px) {
 		h1 {
