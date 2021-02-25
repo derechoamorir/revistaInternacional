@@ -84,6 +84,7 @@ Rellena el formulario
   h1 {
     text-align: center;
     padding: 1rem;
+    text-transform: uppercase;
   }
   .codearea {
     padding: 1rem;
