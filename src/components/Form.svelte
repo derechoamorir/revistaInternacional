@@ -102,4 +102,8 @@ export const addToCountryItem = async () => {
     font-size: 1.2rem;
     margin: 1rem auto;
   }
+  button:hover {
+    box-shadow: 0 0 8px 0 rgb(200,200,200);
+    cursor: pointer;
+  }
 </style>

@@ -10,7 +10,7 @@
 
 <main>
 	<div class="form">
-		<h1>Revistas de prensa internacional</h1>
+		<h1>Revista de prensa</h1>
 		<Form />
 	</div>
 	<div class="showCode">
